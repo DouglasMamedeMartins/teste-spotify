@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 120px;
+  background-color: #000;
+  color: #fff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  max-width: 1710px;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+}
+.logo img {
+  height: 70px;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu ul,
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li a {
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu ul li:last-child {
+  margin-right: 50px;
+}
+
+.menu .divisor {
+  width: 1px;
+  height: 25x;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.spotify-premium,
+.spotify-free {
+  height: calc(100vh - 120px);
+  background-color: #993399;
+}
+.premium-content,
+.free-content {
+  max-width: 1710px;
+  margin: auto;
+  display: flex;
+  color: #fff;
+}
+
+.content-left h4 {
+  font-size: 22px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+.content-left h1 {
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+
+.content-left h2 {
+  font-size: 25px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.content-left a {
+  padding: 30px 50px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 40px;
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 65px;
+}
+
+.content-left p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.content-right .img-tenis {
+  height: 600px;
+  width: 600px;
+}
+.content-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.spotify-free {
+  height: 100vh;
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-color: #2941ab;
+}
+
+.free-container {
+  max-width: 1710px;
+  margin: auto;
+  display: flex;
+}
+
+.free-content h4,
+.free-content h1,
+.free-content h2 {
+  color: #1ed760;
+}
+
+.free-content .button-free {
+  background-color: #1ed760;
+  color: #2941ab;
+  padding: 30px 50px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 40px;
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 65px;
+}
